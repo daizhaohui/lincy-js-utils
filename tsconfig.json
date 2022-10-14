@@ -1,0 +1,28 @@
+{
+    "files": [
+      "src/**/*.ts",
+    ],
+    "compilerOptions": {
+      "declaration": true,
+      "noImplicitAny":true,
+      "preserveConstEnums":true,
+      "sourceMap":false,
+      "target": "ES2015",
+      "module": "esnext",
+      "experimentalDecorators": false, // 启用实验性的ES装饰器
+      "strict": false,
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "esModuleInterop": true,
+      "removeComments": true,
+      "outDir": "./dist",
+      "allowJs": true,
+      "checkJs": true,
+      "skipLibCheck":true,
+      "rootDir": "./src"
+    },
+    "include": [
+      "src/**/*.ts","__test__/**/*.ts"
+    ],
+    "exclude": ["node_modules","__test__","src/**/*.d.ts"]
+}

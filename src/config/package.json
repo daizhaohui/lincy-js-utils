@@ -1,0 +1,15 @@
+{
+  "name": "@lincy-js/utils",
+  "version": "1.0.0",
+  "description": "通用js工具库",
+  "main": "src/index.js",
+  "author": "daizhaohui",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "js-md5": "^0.7.3"
+  },
+  "devDependencies": {
+    "@types/js-md5": "^0.4.3"
+  }
+}
